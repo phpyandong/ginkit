@@ -2,7 +2,7 @@ package ging
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/hicsgo/ging/render"
+	"github.com/phpyandong/ginkit/render"
 )
 
 /* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
