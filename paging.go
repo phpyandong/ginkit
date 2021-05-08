@@ -1,4 +1,4 @@
-package ging
+package ginkit
 
 import (
 	"math"

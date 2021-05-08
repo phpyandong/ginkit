@@ -5,7 +5,7 @@ import (
 )
 
 import (
-	"github.com/hicsgo/ging"
+	"github.com/phpyandong/ginkit"
 )
 
 /* ================================================================================
@@ -19,7 +19,7 @@ import (
  * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 type (
 	jsonResult struct {
-		ging.ActionResult
+		ginkit.ActionResult
 	}
 )
 
@@ -27,7 +27,7 @@ type (
  * json结果
  * args case: statusCode | isAbort | statusCode,isAbort
  * ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
-func JsonResult(ctx *gin.Context, data interface{}, args ...interface{}) ging.IActionResult {
+func JsonResult(ctx *gin.Context, data interface{}, args ...interface{}) ginkit.IActionResult {
 	result := &jsonResult{}
 	result.Context = ctx
 	result.ContentData = data

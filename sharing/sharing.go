@@ -9,7 +9,7 @@ import (
 
 import (
 	"github.com/jinzhu/gorm"
-	"github.com/hicsgo/ging/setting"
+	"github.com/phpyandong/ginkit/setting"
 )
 
 /* ================================================================================
